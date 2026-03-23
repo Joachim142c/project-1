@@ -1,5 +1,7 @@
 .work-area {
     background-color: lemonchiffon;
+     margin: 0;
+    padding: 10px;
 }
 .heading {
     text-justify: auto;
