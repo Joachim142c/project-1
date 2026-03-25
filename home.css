@@ -1,6 +1,5 @@
 .work-area {
     background-color: lemonchiffon;
-   
 }
 .heading {
     text-justify: auto;
@@ -33,6 +32,7 @@ button{
     border-radius: 6px;
     font-size: 15px;
     cursor: pointer;
+    width: auto;
     
 }
 button:hover{
@@ -50,7 +50,7 @@ button:hover{
 
 }
 .credentials input {
-    width: 250px;
+    width: 100%;
     height: 30px;
     padding: 3px;
     margin-top: 5px;
@@ -60,7 +60,7 @@ button:hover{
 }
 .credentials input:focus{
     border-color: black;
-    box-shadow: 0 0 7px rgba(30, 136, 229, 0.4)g;
+    box-shadow: 0 0 7px rgba(30, 136, 229, 0.4);
 }
 .signup-text {
     text-align: center;
@@ -88,8 +88,9 @@ a:hover{
     box-shadow: 
     0 10px 12px rgba(0, 0, 0, 0.3),
     0 10px 25px rgba(0, 0, 0, 0.3);
-    margin: 40px auto;
-    width: 400px auto;
+    margin: 40px;
+    width: auto;
+    max-width: 400px;
 }
 .signup-h1{
     text-align: center;
@@ -100,9 +101,10 @@ a:hover{
     background: lemonchiffon;
     border-style: inset;
     display: grid;
-    margin: 40px auto;
+    margin: 40px;
     padding: 30px;
     border-radius: 12px;
     border-color: black;
-    width: 400px auto;
+    width: auto;
+    max-width: 400px;
 }
