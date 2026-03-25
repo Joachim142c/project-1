@@ -1,7 +1,6 @@
 .work-area {
     background-color: lemonchiffon;
-     margin: 0;
-    padding: 10px;
+   
 }
 .heading {
     text-justify: auto;
@@ -42,8 +41,8 @@ button:hover{
 .credentials{
     text-align:left ;
     max-width: fit-content;
-    margin: 20px auto;
-}
+    margin: 20px auto;}
+
 .credentials label{
     font-weight: bolder;
     color: black;
@@ -84,13 +83,13 @@ a:hover{
     background: lemonchiffon;
     border-style: inset;
     padding: 30px;
-    display: flex ;
+    display: grid;
     border-radius: 12px;
     box-shadow: 
     0 10px 12px rgba(0, 0, 0, 0.3),
     0 10px 25px rgba(0, 0, 0, 0.3);
     margin: 40px auto;
-    width: 400px;
+    width: 400px auto;
 }
 .signup-h1{
     text-align: center;
@@ -105,5 +104,5 @@ a:hover{
     padding: 30px;
     border-radius: 12px;
     border-color: black;
-    width: 400px;
+    width: 400px auto;
 }
